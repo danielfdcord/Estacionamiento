@@ -1,7 +1,7 @@
 
 package Modelos;
 
-public enum TipoVehículo {
+public enum TipoVehiculo {
     
     AUTO,
     MOTO;

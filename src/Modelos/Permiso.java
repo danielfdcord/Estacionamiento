@@ -3,8 +3,8 @@ package Modelos;
 
 public class Permiso {
 
-    NivelUsuario nivel;
-    String nombre;
+    private NivelUsuario nivel;
+    private String nombre;
 
     public Permiso(NivelUsuario nivel, String nombre) {
         this.nivel = nivel;

@@ -6,8 +6,8 @@ public enum Modelo {
     PALIO_FX(Marca.FIAT, 43),
     ROCKER_C(Marca.HARLEY, 666);
     
-    private Marca marca;
-    private int codigo;
+    private final Marca marca;
+    private final int codigo;
 
     Modelo(Marca marca, int codigo){
         this.marca = marca;

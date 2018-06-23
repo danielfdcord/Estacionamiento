@@ -3,14 +3,14 @@ package Modelos;
 
 public class Vehiculo {
     
-    String dominio;
+    private final String dominio;
 
     public Vehiculo(String dominio) {
         this.dominio = dominio;
     }
   
-    public void conocerModelo(){
-        
+    public Modelo conocerModelo(Modelo vehiculo1){
+        return vehiculo1;
     }
 
 }

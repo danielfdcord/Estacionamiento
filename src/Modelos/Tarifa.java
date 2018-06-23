@@ -5,10 +5,10 @@ import java.util.Date;
 
 public class Tarifa {
     
-    int cantidadIngresosSinSaldo;
-    boolean esDeAbono;
-    Date fecha;
-    int montoIngreso;
+    private final int cantidadIngresosSinSaldo;
+    private final boolean esDeAbono;
+    private final Date fecha;
+    private final int montoIngreso;
 
     public Tarifa(int cantidadIngresosSinSaldo, boolean esDeAbono, Date fecha, int montoIngreso) {
         this.cantidadIngresosSinSaldo = cantidadIngresosSinSaldo;
@@ -18,8 +18,8 @@ public class Tarifa {
     }
     
     
-    public void conocerTipoVehiculo(){
-        
+    public TipoVehiculo conocerTipoVehiculo(TipoVehiculo vehiculo){
+        return vehiculo;
     }
 
     
